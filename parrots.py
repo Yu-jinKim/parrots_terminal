@@ -3,7 +3,7 @@ import time
 
 while True:
     for i in range(0, 10):
-        with open(f"frames/{i}.txt") as f:
+        with open("frames/{}.txt".format(i)) as f:
             content = "".join(f.readlines())
             print(content)
             time.sleep(0.1)
