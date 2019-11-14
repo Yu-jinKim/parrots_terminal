@@ -1,8 +1,5 @@
-import os
 import subprocess
 import time
-
-os.chdir("/home/yujin/github/parrots_terminal")
 
 while True:
     for i in range(0, 10):
